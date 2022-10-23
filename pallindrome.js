@@ -9,7 +9,7 @@ let len = str.length;       // storing length of new string
 let bag="";                 // to write horizontally
 
 
-for ( let i=0; i>=0; i-- ){    // MISTAKE 1 : let i = len - 1
+for ( let i=len-1; i>=0; i-- ){
   bag += str[i];
 }
 if ( bag === str ){
@@ -19,8 +19,8 @@ if ( bag === str ){
 }
 
 // ANOTHER SHORTCUT WAY OF CONVERTING
-let num2 = 12345;
+// let num2 = 12345;
 
-let str2 = ""+num2;
+// let str2 = ""+num2;
 
-console.log(typeof(str2));
+// console.log(typeof(str2));
